@@ -1,0 +1,4 @@
+user = input("what is your first name: ")
+user1 = input("what is your last name: ")
+
+print("your first name is " + user + " last name is " + user1)
