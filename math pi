@@ -1,0 +1,5 @@
+from math import pi
+user = float(input("enter radius: "))
+result = str(pi * user**2)
+
+print(result)
