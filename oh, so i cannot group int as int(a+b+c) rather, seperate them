@@ -1,0 +1,8 @@
+a, b, c = input("""3 numbers please with a , inbetween: """).split(',')
+
+sum = int(a) + int(b) + int(c)
+
+if a == b == c:
+    print(sum*3)
+else:
+    print(sum)
