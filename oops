@@ -1,0 +1,39 @@
+#import math
+
+userInput = int(input("shoot me a number: "))
+
+a = 17
+b = int(userInput - 17)
+
+if b > 17:
+    print("double power!!: ", b*2)
+else:
+    print("the difference between your number and 17 is: " , b )
+    
+    
+    
+    """
+    what they actually wanted
+    """
+    
+    def difference(n):
+    if n <= 17:
+        return 17 - n
+    else:
+        return (n - 17) * 2 
+
+print(difference(22))
+print(difference(14))
+
+
+"""
+my take
+"""
+n = int(input("shoot me a num: "))
+
+
+if n > 17:
+    print((n - 17) * 2)
+
+else:
+    print(17 - n)
